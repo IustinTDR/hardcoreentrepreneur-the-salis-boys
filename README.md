@@ -8,4 +8,4 @@ Tourismus wird auch einen wichtigen Status in unserer App haben. Damit meinen wi
 werden können und man dadurch den Tourismus in unserem wunderschönen Land steigern wird.
 Die App wird aber auch Vorteile für die Käufer haben da man dadurch Zugriff auf gesunde Produkte hat und die Rumänische Kultur erleben kann.
 
-Wir hoffen dass die App helfen wird das Leben der Menschen zu verbessern und der Rumänischen Landschaft ein großes + zu geben :)
+Wir hoffen dass die App helfen wird das Leben der Menschen zu verbessern und der Rumänischen Landschaft ein großes + zu geben :) 
