@@ -2,7 +2,7 @@ Hi, wir sind Christian und Iustin und wir haben vor, das Leben am Land zu verbes
 und Dienstleistungen an den Markt zu bringen.
 
 
-Mit dieser App sollen Rumänische Landwirte (aber auch kleinere Produzenten und Dienstleister sowie Machaniker, Friseure etc.) in der Lage sein 
+Mit dieser App sollen Rumänische Landwirte (aber auch kleinere Produzenten und Dienstleister sowie Mechaniker, Friseure etc.) in der Lage sein 
 ihr Leben und ihre finanzielle Situation zu verbessern und womöglich auch von dem Verkauf ihrer Waren und Diensleistungen zu leben. 
 Tourismus wird auch einen wichtigen Status in unserer App haben. Damit meinen wir dass unsere Kunden Zimmer, Häuser oder Ferienhütten zum Buchen freistellen
 werden können und man dadurch den Tourismus in unserem wunderschönen Land steigern wird.
