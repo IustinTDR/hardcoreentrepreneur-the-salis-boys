@@ -1,0 +1,32 @@
+Unsere App-Developement-Reise:
+
+Tag 1 SAMSTAG 9.4.----------------------------------------------------------------------------------------------------
+
+-Wir haben beim "Opening event" teilgenommen und über die Idee diskutiert
+-Wir haben uns entschlossen die "Landwirt-Unterstützug" App zu programmieren                                                  (SA) Großer Fortschritt :)
+
+Tag 2 SONNTAG 10.4.---------------------------------------------------------------------------------------------------
+
+-Wir haben beim App inventor Kurs teilgenommen
+-Wir haben uns entschieden IntelliJ zu verwenden (Haben damit aber keinen Fortschritt gemacht)                                (SO) Mäßiger Fortschritt :|
+
+Tag 3 MONTAG 11.4.----------------------------------------------------------------------------------------------------
+
+-Keine Arbeit an diesem Tag                                                                                                   (MO) Kein Fortschritt :(
+
+Tag 4 DIENSTAG 12.4.--------------------------------------------------------------------------------------------------
+
+-Wir haben das App-Design festgelegt
+-Wir haben einen Namen für unsere App gefunden: Camara Romaneasca :)
+-Wir haben unsere Strategie re-strukturiert                                                                                   (DI) Großer Fortschritt :)
+-Wir haben uns entschieden VS Code zu verwenden mit React Native
+
+Tag 5 MITTWOCH 13.4.-------------------------------------------------------------------------------------------------
+-Wir haben alle nötigen Programme installiert 
+-Wir haben unsere ersten Code Linien geschrieben                                                                              (MI) Großer Fortschritt :)
+-Wir haben mehr über React Native gelernt | Video: https://youtu.be/rxN8Iuo28oQ
+
+Tag 6 DONNERSTAG 14.4.-----------------------------------------------------------------------------------------------
+
+
+Tag 7 FREITAG 15.4.-------------------------------------------------------------------------------------------------
