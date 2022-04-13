@@ -23,8 +23,11 @@ Tag 4 DIENSTAG 12.4.------------------------------------------------------------
 
 Tag 5 MITTWOCH 13.4.-------------------------------------------------------------------------------------------------
 -Wir haben alle nötigen Programme installiert 
+
+-Wir haben die I.D.E. angepasst
 -Wir haben unsere ersten Code Linien geschrieben                                                                              (MI) Großer Fortschritt :)
 -Wir haben mehr über React Native gelernt | Video: https://youtu.be/rxN8Iuo28oQ
+-Wir haben mit dem Business-Plan begonnen
 
 Tag 6 DONNERSTAG 14.4.-----------------------------------------------------------------------------------------------
 
