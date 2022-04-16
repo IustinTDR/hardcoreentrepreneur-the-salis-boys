@@ -1,4 +1,7 @@
 Scoala: BGZaunergasse (Liceu din Austria) Echipa: The salis boys
+-------------------------------------------------------------------------------
+
+
 
 
 Hi, wir sind Christian und Iustin und wir haben vor, das Leben am Land zu verbessern durch eine App die lokalen Produzenten hilft ihre Produkte 
