@@ -1,4 +1,5 @@
-Scoala: BGZaunergasse (Liceu din Austria) Echipa: The salis boys
+Scoala: BGZaunergasse (Liceu din Austria) 
+Echipa: The salis boys
 -------------------------------------------------------------------------------
 
 
