@@ -35,46 +35,54 @@ export default function App() {
   );
 }
 
+
+
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#d3d3d3',
     alignItems: 'center',
     justifyContent: 'center',
-    margin: 16
+    margin: 0
 
   },
 
   headerContainer: {
-    width: '100%',
+    width: '92%',
     height: '25%',
-    margin: 10,
-    borderRadius: 20,
-    backgroundColor: '#d3d3d3'
+    margin: 12,
+    marginTop: 40,
+    borderRadius: 16,
+    backgroundColor: 'white'
   },
 
   bodyContainer: {
-    width: '100%',
+    width: '92%',
     height: '50%',
-    margin: 16,
-    borderRadius: 20,
-    backgroundColor: '#d3d3d3'
+    margin: 12,
+    borderRadius: 16,
+    backgroundColor: 'white'
   },
 
   footerContainer: {
-    width: '100%',
+    flex: 1,
+    flexDirection: 'row',
+    width: '92%',
     height: '10%',
-    borderRadius: 20,
-    margin: 8,
-    marginBottom: -24,
-    backgroundColor: '#d3d3d3'
+    borderRadius: 16,
+    margin: 12,
+    marginBottom: 20,
+    backgroundColor: 'white'
   },
 
   footerElements: {
-    width: '25%',
+    width: '24.75%',
     height: '60%',
     borderRadius: 10,
-    margin: 16,
+    margin: 15.25,
+    marginTop: 19,
+    marginBottom: 16,
     backgroundColor: 'lightblue',
     alignItems: 'center',
     justifyContent: 'center'
@@ -83,3 +91,12 @@ const styles = StyleSheet.create({
 
 
 });
+
+
+
+
+
+
+
+
+
