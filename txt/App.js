@@ -1,5 +1,5 @@
 import * as React from'react';
-import MainContainer from './navigation/MainContainer';
+import MainContainer from './navigation/MainContainer'
 
 
 function App(){
@@ -11,4 +11,3 @@ function App(){
 
 
 export default App;
-
