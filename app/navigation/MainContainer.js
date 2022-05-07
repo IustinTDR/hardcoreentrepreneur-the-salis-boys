@@ -59,12 +59,14 @@ export default function MainContainer() {
                 
                 })}
                 tabBarOptions={{
-                    activeTintColor: 'green',
+                    activeTintColor: 'grey',
                     inactiveTintColor: 'black',
-                    labelStyle: { paddingBottom: 8, fontSize: 10, paddingTop: -12},
-                    style: {padding: 10, height: 70}
+                    activeBackgroundColor: '#dedede',
+                    labelStyle: { paddingBottom: 4, fontSize: 10, paddingTop: -12},
+                    style: {padding: 12, height: 100},
+                     
                 }}
-                
+               
             
             >
                 

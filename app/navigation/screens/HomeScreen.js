@@ -1,12 +1,10 @@
 import * as React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
 
 export default function HomeScreen({navigation}) {
     return(
     <View style={styles.container}>
-        <Text
-            onPress={() => alert('This is the "Home" screen. ')}>Home Screen
-        </Text>
+        <Image source={require('./images/field.png')} style={styles.image} ></Image>
     </View>
     );
 }
@@ -23,5 +21,15 @@ const styles = StyleSheet.create({
     text: {
         fontSize: 16, 
         fontWeight: 'bold'
+    },
+
+    image: {
+        height: '30%',
+        width: '175%',
+        marginTop: 0,
+        marginBottom: 475,
+
+        //resizeMode: 'contain'
+
     }
 })
