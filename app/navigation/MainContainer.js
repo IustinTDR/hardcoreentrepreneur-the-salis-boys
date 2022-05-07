@@ -3,6 +3,15 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons'
 
+
+//Icons
+
+import { Octicons } from '@expo/vector-icons';
+import { Feather } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { FontAwesome5 } from '@expo/vector-icons';
+import { MaterialIcons } from '@expo/vector-icons';
+
 //Screens
 
 import HomeScreen from './screens/HomeScreen';
@@ -12,11 +21,11 @@ import HousingScreen from './screens/HousingScreen';
 import ProductsScreen from './screens/ProductsScreen';
 
 // Screen Names
-const homeName = 'Home';
-const profileName = 'Profile';
-const servicesName = 'Services';
-const housingName = 'Housing';
-const productsName = 'Products';
+const homeName = 'Acasă';
+const profileName = 'Profil';
+const servicesName = 'Servicii';
+const housingName = 'Cazare';
+const productsName = 'Produse';
 
 const Tab = createBottomTabNavigator()
 
@@ -28,34 +37,38 @@ export default function MainContainer() {
                 screenOptions={({ route }) => ({
                     tabBarIcon: ({ focused, color, size }) => {
                         
-                        let iconName;
-                        let rn = route.name
-                        if (rn === homeName) {
-                            iconName = focused ? 'home' : 'home-outline';
-                        } else if (rn === profileName) {
-                            iconName = focused ? 'profile' : 'home-outline';
-                        } else if (rn === productsName) {
-                            iconName = focused ? 'product' : 'home-outline';
-                        } else if (rn === housingName) {
-                            iconName = focused ? 'housing' : 'home-outline';
-                        } else if (rn === servicesName) {
-                            iconName = focused ? 'services' : 'home-outline';
                         
-                        return <Ionicons name={iconName} size={size} color={color}/>
+                        let rn = route.name
+                        
+                        if (rn === homeName) {
+                            return <Octicons name="home" size={24} color="black" />
+
+                        } else if (rn === profileName) {
+                            return <Feather name="user" size={24} color="black" />
+                            
+                        } else if (rn === productsName) {
+                            return <MaterialCommunityIcons name="shopping-outline" size={24} color="black" />
+
+                        } else if (rn === housingName) {
+                            return <FontAwesome5 name="building" size={24} color="black" />
+                            
+                        } else if (rn === servicesName) {
+                            return <MaterialIcons name="emoji-people" size={24} color="black" />
                         }
                     },
                 
                 })}
                 tabBarOptions={{
-                    activeTintColor: 'brown',
+                    activeTintColor: 'green',
                     inactiveTintColor: 'black',
-                    labelStyle: { paddingBottom: 10, fontSize: 10},
+                    labelStyle: { paddingBottom: 8, fontSize: 10, paddingTop: -12},
                     style: {padding: 10, height: 70}
                 }}
                 
             
             >
-
+                
+               
                 <Tab.Screen name={servicesName} component={ServicesScreen}/>
                 <Tab.Screen name={productsName} component={ProductsScreen}/>
                 <Tab.Screen name={housingName} component={HousingScreen}/>
