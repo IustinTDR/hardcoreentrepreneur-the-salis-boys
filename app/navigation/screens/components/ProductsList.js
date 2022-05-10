@@ -4,17 +4,47 @@ import { View, Text, StyleSheet, Image, ScrollView } from 'react-native';
 
 export default function HomeScreen({navigation}) {
     return(
-    <ScrollView>
+    <View>
         <View style={styles.container}>
-            <Text style={styles.title}>Recent posts</Text>
+            <Text style={styles.title}>Cămara Românească</Text>
         </View>
 
-        <ScrollView style={styles.posts}>
+            
+
+        <View style={styles.posts}>
             <View style={styles.post}>
                 
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-                <Text style={styles.postText}>Nume: Adrian Brincus</Text>
-                <Text style={styles.postText}>Nr. Tel.: +40 716 473 9384</Text>
+                <Text style={styles.postText}>Miel tăiat 20lei pe kilogram</Text>
+                <Text style={styles.postText}>Nume: Ghiță Mureșan</Text>
+                <Text style={styles.postText}>Locație: Rădăuți jud. Suceava</Text>
+                <Text style={styles.postText}>Nr. Tel.: +40 678 478 7899</Text>
+            
+            </View>
+            <View style={styles.post}>
+                
+                <Text style={styles.postText}>Vând teren, 5 hectare de pădure</Text>
+                <Text style={styles.postText}>Nume: Bogdan Ionescu</Text>
+                <Text style={styles.postText}>Locație: Mireșu Mare jud. Maramureș</Text>
+                <Text style={styles.postText}>Nr. Tel.: +40 345 473 7564</Text>
+            
+            </View>
+            <View style={styles.post}>
+                
+                <Text style={styles.postText}>Masaj anti varice</Text>
+                <Text style={styles.postText}>Nume: Mărioara Cristescu</Text>
+                <Text style={styles.postText}>Locație: Topoloveni jud. Argeș</Text>
+                <Text style={styles.postText}>Nr. Tel.: +40 456 778 7576</Text>
+            
+            
+            </View>
+            <View style={styles.post}>
+                
+                
+                <Text style={styles.postText}>Închiriez cabană în munții apuseni</Text>
+                <Text style={styles.postText}>Nume: Andrei Ungureanu</Text>
+                <Text style={styles.postText}>Locație: Câmpeni jud. Alba</Text>
+                <Text style={styles.postText}>Nr. Tel.: +40 231 301 7506</Text>
+            
             
             </View>
             <View style={styles.post}>
@@ -31,29 +61,8 @@ export default function HomeScreen({navigation}) {
             
             
             </View>
-            <View style={styles.post}>
-                
-                
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-            
-            
-            </View>
-            <View style={styles.post}>
-                
-                
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-            
-            
-            </View>
-            <View style={styles.post}>
-                
-                
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-            
-            
-            </View>
-        </ScrollView>
-    </ScrollView>    
+        </View>
+    </View>    
     );
 }
 
@@ -62,9 +71,9 @@ export default function HomeScreen({navigation}) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        //alignItems: 'center',
-        //justifyContent: 'center',
-        backgroundColor: '#fff'
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: 'transparent'
     },
 
     title: {
@@ -72,6 +81,7 @@ const styles = StyleSheet.create({
         marginTop: 0,
         fontSize: 24,
         fontWeight: 'bold',
+    
 
     },
     posts: {
@@ -81,18 +91,18 @@ const styles = StyleSheet.create({
     },
 
     post: {
-        backgroundColor: '#d3f8d3',
+        backgroundColor: '#fff',
         height: 200,
         width: 350,
         marginBottom: 20,
-        borderRadius: 20,
+        borderRadius: 16,
         alignItems: 'center',
         justifyContent: 'center'
     },
 
     postText: {
         alignItems: 'center',
-        justifyContent: 'center',
+        //justifyContent: 'center',
         fontSize: 18
     }
 

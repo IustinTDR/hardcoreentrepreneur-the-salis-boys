@@ -6,7 +6,7 @@ let setClicked = true;
 
 const SearchBar = ({clicked, searchPhrase, setSearchPhrase, setCLicked}) => {
   return (
-    <ScrollView style={styles.container}>
+    <View style={styles.container}>
       <View
         style={
           clicked
@@ -50,7 +50,7 @@ const SearchBar = ({clicked, searchPhrase, setSearchPhrase, setCLicked}) => {
           ></Button>
         </View>
       )}
-    </ScrollView>
+    </View>
   );
 };
 ;
@@ -63,9 +63,9 @@ const styles = StyleSheet.create({
     marginLeft: 60,
     marginTop: 40,
     justifyContent: "flex-start",
-    //alignItems: "center",
+    alignItems: "center",
     flexDirection: "row",
-    opacity: 0.75,
+    opacity: 0.8,
     width: "60%",
     position: 'absolute'
 

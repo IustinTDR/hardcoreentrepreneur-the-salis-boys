@@ -4,37 +4,7 @@ import { View, Text, StyleSheet, Image, ScrollView } from 'react-native';
 export default function ProfileScreen({navigation}) {
     return (
     <ScrollView style={styles.main}>
-        {/* <View style={styles.user}>
-            <View style={styles.edit}>
-                <Text>Edit profile</Text>
-            </View>
-
-            <View style={styles.container}>
-                <Text style={styles.text}>followers</Text>
-                <Text style={styles.text}>following</Text>
-            </View>
-
-            <View>
-                <Image source={require('./images/profile.png')} style={styles.image}></Image>
-            </View>
-
-            <View style={styles.container}>
-                <Text style={styles.texts}>38</Text>
-                <Text style={styles.texts}>52</Text>
-            </View>
-        </View>
-
-        <View>
-            <Text style={styles.posts}>Recent posts</Text>
-        </View>
-
-        <ScrollView style={styles.posts}>
-            <View style={styles.post}></View>
-            <View style={styles.post}></View>
-            <View style={styles.post}></View>
-            <View style={styles.post}></View>
-            <View style={styles.post}></View>
-        </ScrollView> */}
+        
 
         <View style={styles.user}>
 
@@ -43,7 +13,13 @@ export default function ProfileScreen({navigation}) {
             </View>
 
             <View style={styles.imgContainer}>
-            <Image source={require('./images/profile.png')} style={styles.profile}></Image>
+            <Image source={require('./images/peasant.jpg')} style={styles.profile}></Image>
+            </View>
+
+            <View>
+                <Text style={styles.location}>Cârțișoara, jud. Sibiu</Text>
+                <Text style={styles.name}>Ion Popescu</Text>
+                
             </View>
 
             <View style={styles.numbers}>
@@ -61,18 +37,14 @@ export default function ProfileScreen({navigation}) {
 
         <View>
             <Text style={styles.title}>
-                Recent Posts
+                Anunțuri publicate
             </Text>
         </View>
 
-        <ScrollView style={styles.posts}>
-            <View style={styles.post}><Text style={styles.postText}>Vacuum Cleaner</Text></View>
-            <View style={styles.post}><Text style={styles.postText}>Vacuum Cleaner</Text></View>
-            <View style={styles.post}><Text style={styles.postText}>Vacuum Cleaner</Text></View>
-            <View style={styles.post}><Text style={styles.postText}>Vacuum Cleaner</Text></View>
-            <View style={styles.post}><Text style={styles.postText}>Vacuum Cleaner</Text></View>
-            <View style={styles.post}><Text style={styles.postText}>Vacuum Cleaner</Text></View>
-        </ScrollView>
+        <View style={styles.posts}>
+            <View style={styles.post}><Text style={styles.postText}>Miere de albină</Text></View>
+            <View style={styles.post}><Text style={styles.postText}>Caș ardelenesc din inima Sibiului</Text></View>
+        </View>
 
     </ScrollView>
     );
@@ -82,18 +54,18 @@ export default function ProfileScreen({navigation}) {
 
 const styles = StyleSheet.create({
     main: {
-        backgroundColor: 'lightblue'
+        backgroundColor: '#f2c2c2'
     },
 
     edit: {
-        backgroundColor: '#d5d5d5',
+        backgroundColor: '#d3d3d3',
         width: 100,
         paddingLeft: 15,
         paddingTop: 8,
         paddingBottom: 8,
         borderRadius: 10,
         marginLeft: 260,
-        marginTop: 20,
+        marginTop: 15,
         
     },
 
@@ -105,10 +77,25 @@ const styles = StyleSheet.create({
         borderRadius: 150
     },
 
+    name: {
+        marginLeft: 220,
+        marginTop: -45,
+        fontSize: 18,
+        fontWeight: 'bold'
+    },
+
+    location: {
+        marginLeft: 220,
+        marginTop: -80,
+        fontSize: 12,
+        fontWeight: 'bold',
+        fontStyle: 'italic'
+    },
+
+
     followers: {
         flexDirection: 'row',
         fontSize: 16,
-        fontWeight: 'bold',
         marginLeft: 220,
         marginTop: 12,
 
@@ -117,7 +104,6 @@ const styles = StyleSheet.create({
 
     followersText: {
         fontSize: 16,
-        fontWeight: 'bold',
         marginRight: 40,
         marginLeft: -20
 
@@ -128,7 +114,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         marginLeft: 215,
-        marginTop: -75,
+        marginTop: -40,
         marginRight: 20,
         
 
@@ -136,7 +122,6 @@ const styles = StyleSheet.create({
 
     numbersText: {
         fontSize: 20,
-        fontWeight: 'bold',
         marginRight: 52
     },
 
@@ -161,7 +146,7 @@ const styles = StyleSheet.create({
     },
 
     post: {
-        backgroundColor: '#f4f4f4',
+        backgroundColor: '#fff',
         height: 200,
         width: 350,
         marginBottom: 20,
@@ -171,8 +156,6 @@ const styles = StyleSheet.create({
     },
 
     postText: {
-        alignItems: 'center',
-        justifyContent: 'center',
         fontSize: 18
     }
 })

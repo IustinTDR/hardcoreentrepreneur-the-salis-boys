@@ -1,17 +1,19 @@
 import * as React from 'react';
-import { View, Text, StyleSheet, Image, ImageBackground } from 'react-native';
+import { View, Text, StyleSheet, Image, ImageBackground, ScrollView } from 'react-native';
 import SearchBar from './components/Searchbar';
-import ProductList from './components/ProductsList.js'
+import ProductList from './components/ProductsList.js';
+//import { AntDesign } from '@expo/vector-icons';
 
 export default function HomeScreen({navigation}) {
     return(
     <ScrollView style={styles.container}>
-        
-        <ImageBackground source={require('./images/gradient.png')} style={styles.gradient} blurRadius={16}></ImageBackground>
-        <Image source={require('./images/field.png')} style={styles.image} blurRadius={10}></Image>
+
+        <Image source={require('./images/field.png')} style={styles.image} blurRadius={0}></Image>
         <SearchBar></SearchBar>
         <ProductList></ProductList>
-       
+        {/* <View style={styles.plus}></View>
+            <AntDesign name="pluscircleo" size={24} color="black" />
+        </View> */}
     </ScrollView>
     );
 }
@@ -23,7 +25,7 @@ const styles = StyleSheet.create({
         flex: 1,
         //alignItems: 'center',
         //justifyContent: 'center',
-        backgroundColor: '#fff'
+        backgroundColor: '#b0e0e6'
     },
 
     text: {
@@ -38,5 +40,7 @@ const styles = StyleSheet.create({
         marginBottom: 30,
     },
     
-    
+    // plus: {
+        
+    // }
 })

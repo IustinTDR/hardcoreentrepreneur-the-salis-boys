@@ -19,6 +19,7 @@ import ProfileScreen from './screens/ProfileScreen';
 import ServicesScreen from './screens/ServicesScreen';
 import HousingScreen from './screens/HousingScreen';
 import ProductsScreen from './screens/ProductsScreen';
+import AddPost from './screens/AddPost';
 
 // Screen Names
 const homeName = 'Acasă';
