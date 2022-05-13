@@ -14,15 +14,15 @@ export default function HousingScreen({navigation}) {
         <View style={styles.posts}>
             <View style={styles.post}>
                 
-                <Text style={styles.postText}>Housing 1</Text>
-                <Text style={styles.postText}>Nume: Ghiță Mureșan</Text>
-                <Text style={styles.postText}>Locație: Rădăuți jud. Suceava</Text>
+                <Text style={styles.postText}>Închiriez apartament</Text>
+                <Text style={styles.postText}>Nume: Răzvan Zlampa</Text>
+                <Text style={styles.postText}>Locație: Petroșani jud. Hunedoara</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 678 478 7899</Text>
             
             </View>
             <View style={styles.post}>
                 
-                <Text style={styles.postText}>Housing 2</Text>
+                <Text style={styles.postText}>Vând teren, 5 hectare de pădure</Text>
                 <Text style={styles.postText}>Nume: Bogdan Ionescu</Text>
                 <Text style={styles.postText}>Locație: Mireșu Mare jud. Maramureș</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 345 473 7564</Text>
@@ -30,9 +30,9 @@ export default function HousingScreen({navigation}) {
             </View>
             <View style={styles.post}>
                 
-                <Text style={styles.postText}>Housing 3</Text>
-                <Text style={styles.postText}>Nume: Mărioara Cristescu</Text>
-                <Text style={styles.postText}>Locație: Topoloveni jud. Argeș</Text>
+                <Text style={styles.postText}>Vând casă bătrânească</Text>
+                <Text style={styles.postText}>Nume: Andreea Pop</Text>
+                <Text style={styles.postText}>Locație: Scornicești jud. Olt</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 456 778 7576</Text>
             
             
@@ -40,27 +40,15 @@ export default function HousingScreen({navigation}) {
             <View style={styles.post}>
                 
                 
-                <Text style={styles.postText}>Housing 4</Text>
+                <Text style={styles.postText}>Închiriez cabană în munții apuseni</Text>
                 <Text style={styles.postText}>Nume: Andrei Ungureanu</Text>
                 <Text style={styles.postText}>Locație: Câmpeni jud. Alba</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 231 301 7506</Text>
             
             
             </View>
-            <View style={styles.post}>
-                
-                
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-            
-            
-            </View>
-            <View style={styles.post}>
-                
-                
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-            
-            
-            </View>
+
+
         </View>
     </View>    
     );

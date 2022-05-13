@@ -22,17 +22,17 @@ export default function HomeScreen({navigation}) {
             </View>
             <View style={styles.post}>
                 
-                <Text style={styles.postText}>Vând teren, 5 hectare de pădure</Text>
-                <Text style={styles.postText}>Nume: Bogdan Ionescu</Text>
-                <Text style={styles.postText}>Locație: Mireșu Mare jud. Maramureș</Text>
+                <Text style={styles.postText}>Vând lemn de stejar calitate bună</Text>
+                <Text style={styles.postText}>Nume: Darius Petruș</Text>
+                <Text style={styles.postText}>Locație: Ceahlău jud. Neamț</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 345 473 7564</Text>
             
             </View>
             <View style={styles.post}>
                 
-                <Text style={styles.postText}>Masaj anti varice</Text>
-                <Text style={styles.postText}>Nume: Mărioara Cristescu</Text>
-                <Text style={styles.postText}>Locație: Topoloveni jud. Argeș</Text>
+                <Text style={styles.postText}>Vând dulceață Bio de prune</Text>
+                <Text style={styles.postText}>Nume: Iulian Șerban</Text>
+                <Text style={styles.postText}>Locație: Vălureni jud. Mureș</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 456 778 7576</Text>
             
             
@@ -40,27 +40,15 @@ export default function HomeScreen({navigation}) {
             <View style={styles.post}>
                 
                 
-                <Text style={styles.postText}>Închiriez cabană în munții apuseni</Text>
-                <Text style={styles.postText}>Nume: Andrei Ungureanu</Text>
-                <Text style={styles.postText}>Locație: Câmpeni jud. Alba</Text>
+                <Text style={styles.postText}>Vând sfori de cânepă</Text>
+                <Text style={styles.postText}>Nume: Alexandru Grama</Text>
+                <Text style={styles.postText}>Locație: Finteușu Mare jud. Maramureș</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 231 301 7506</Text>
             
             
             </View>
-            <View style={styles.post}>
-                
-                
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-            
-            
-            </View>
-            <View style={styles.post}>
-                
-                
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-            
-            
-            </View>
+
+
         </View>
     </View>    
     );

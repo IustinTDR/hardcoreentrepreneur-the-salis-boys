@@ -14,6 +14,7 @@ export default function HomeScreen({navigation}) {
         {/* <View style={styles.plus}></View>
             <AntDesign name="pluscircleo" size={24} color="black" />
         </View> */}
+        
     </ScrollView>
     );
 }

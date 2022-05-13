@@ -22,16 +22,16 @@ export default function ServicesScreen({navigation}) {
             <View style={styles.post}>
                 
                 <Text style={styles.postText}>Fac curățenie</Text>
-                <Text style={styles.postText}>Nume: Andreea</Text>
-                <Text style={styles.postText}>Locație: Mireșu Mare jud. Maramureș</Text>
+                <Text style={styles.postText}>Nume: Andreea Bănescu</Text>
+                <Text style={styles.postText}>Locație: Perișor jud. Dolj</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 345 473 7564</Text>
             
             </View>
             <View style={styles.post}>
                 
-                <Text style={styles.postText}>Service 3</Text>
-                <Text style={styles.postText}>Nume: Mărioara Cristescu</Text>
-                <Text style={styles.postText}>Locație: Topoloveni jud. Argeș</Text>
+                <Text style={styles.postText}>Tund și vopsesc păr</Text>
+                <Text style={styles.postText}>Nume: Maria Petrescu</Text>
+                <Text style={styles.postText}>Locație: Ineu jud. Arad</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 456 778 7576</Text>
             
             
@@ -39,27 +39,15 @@ export default function ServicesScreen({navigation}) {
             <View style={styles.post}>
                 
                 
-                <Text style={styles.postText}>Service 4</Text>
-                <Text style={styles.postText}>Nume: Andrei Ungureanu</Text>
+                <Text style={styles.postText}>Babysitting Sâmbăta</Text>
+                <Text style={styles.postText}>Nume: Cristian Ionache</Text>
                 <Text style={styles.postText}>Locație: Câmpeni jud. Alba</Text>
                 <Text style={styles.postText}>Nr. Tel.: +40 231 301 7506</Text>
             
             
             </View>
-            <View style={styles.post}>
-                
-                
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-            
-            
-            </View>
-            <View style={styles.post}>
-                
-                
-                <Text style={styles.postText}>Electrician and Plumber</Text>
-            
-            
-            </View>
+
+
         </View>
     </View>    
     );

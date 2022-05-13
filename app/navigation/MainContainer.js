@@ -71,12 +71,13 @@ export default function MainContainer() {
             
             >
                 
-               
+                
+                <Tab.Screen name={homeName} component={HomeScreen}/>
                 <Tab.Screen name={servicesName} component={ServicesScreen}/>
                 <Tab.Screen name={productsName} component={ProductsScreen}/>
                 <Tab.Screen name={housingName} component={HousingScreen}/>
-                <Tab.Screen name={homeName} component={HomeScreen}/>
                 <Tab.Screen name={profileName} component={ProfileScreen}/>
+                
                 
 
 
